@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #0B2434;
+    padding: 40px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F5F5F5;
+    color: black;
+    height: 1000px;
+    max-width: 1500px;
+    border-radius: 10px;
+}
+
+.title{
+    position: relative;
+    top: -12%;
+    font-size: 80px;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+
+.instruction{
+    position: relative;
+    top: -15%;
+    left: 30%;
+    font-size: 32px;
+    width: 600px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.dice-container{
+    position: relative;
+    top: -7%;
+    padding-left: 150px;
+    display: grid;
+    grid-template: auto auto / repeat(5, 15%);
+    grid-gap: 60px;
+}
+
+/* .div-held-false{         $ this is used when we use ternary on className of div
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.div-held-true{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #59E391;
+} */
+
+
+.div-held{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.dice-value{
+    position: relative;
+    top: -19%;
+    font-size: 5rem;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.btn-roll{
+    position: relative;
+    top: 45%;
+    background: #5035FF;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.05em;
+    border: none;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 7px;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
+.btn-new-game{
+    position: relative;
+    top: 45%;
+    background: #5035FF;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.05em;
+    border: none;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 7px;
+    width: 200px;
+    height: 70px;
+    cursor: pointer;
+}
